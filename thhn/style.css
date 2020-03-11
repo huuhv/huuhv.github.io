@@ -3399,8 +3399,8 @@ h3.widget-title-modal {
  }
 @media only screen and (max-width: 575px) {
 .slider--15 .slide .slider__content h2 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 35px;
 }
 .slider--15 .slide .slider__content h2.another {
   font-size: 46px;
