@@ -16,7 +16,23 @@ a#telephone:hover {
     background: #fff;
     color: #004196;
 }
-.section__title {
+.home-category .section__title {
   max-width: 100%;
 }
-
+.home-category .h2-border {
+  border-top: 3px solid #e59285;
+  padding-top: 10px;
+}
+.home-category .section__title h2 a:hover{
+  color: #333;
+}
+.home-category .section__title .btn-more {
+  float: right;
+}
+.home-search-news.wn__sidebar .widget.search_widget {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.home-search-news.wn__sidebar .widget.recent_widget {
+  margin-bottom: 20px;
+}
