@@ -3971,27 +3971,29 @@
     <a id="telephone" href="tel:0988888888" style="position: fixed; z-index: 2147483647;">
         <i class="fa fa-phone fa-spin"></i>
     </a>
-    <div class="fb-customerchat"
-        page_id="227724380662936"
-        minimized="false">
-    </div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId            : '227724380662936',
-          autoLogAppEvents : true,
-          xfbml            : true,
-          version          : 'v2.11'
-        });
-      };
-    (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "https://connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="227724380662936">
+      </div>
 </body>
 
 <!-- Mirrored from d29u17ylf1ylz9.cloudfront.net/boighor-v2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Aug 2018 23:46:43 GMT -->
