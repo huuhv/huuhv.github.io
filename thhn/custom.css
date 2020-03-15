@@ -1,7 +1,11 @@
+a#scrollUp {
+  bottom: 0px;
+  left: 40px;
+}
 a#telephone {
   background: #004196;
   color: #fff;
-  bottom: 40px;
+  bottom: 45px;
   left: 40px;
   border-radius: 100px;
   height: 45px;
