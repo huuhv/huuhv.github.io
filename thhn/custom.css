@@ -40,3 +40,49 @@ a#telephone:hover {
 .home-search-news.wn__sidebar .widget.recent_widget {
   margin-bottom: 20px;
 }
+.mobile-top-menu {
+  text-align: center;
+  padding: 20px 0px;
+}
+.mobile-top-menu h4 {
+  display:inline-table;
+  width:31%;
+  text-align:center;
+  border:2px solid #e59285;
+  margin:2px;
+  min-height:44px;
+  vertical-align:middle;
+  background:-webkit-linear-gradient(top, #fff, #e5e5e5);
+  border-radius:3px;
+}
+.mobile-top-menu h4 a {
+  vertical-align:middle;
+  display:table-cell;
+  padding:2px;
+  font-size:14px;
+  font-weight:bold;
+  color:#000;
+  line-height:1.4em
+}
+.mobile-top-menu h4 a:hover {
+  color: #e59285
+}
+#wn__header .menu-right {
+  padding: 0px;
+}
+#wn__header .menu-right .callphone {
+  padding-right: 15px;
+}
+#wn__header .menu-right .callphone i {
+  color: red;
+}
+#wn__header .menu-right .shopcart {
+  padding-right: 15px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .mobile-top-menu.d-none {
+    display: block !important;
+  }
+}
