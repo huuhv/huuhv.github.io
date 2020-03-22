@@ -1,8 +1,113 @@
 /*********************************************************************************
 
-	Template Name: Boighor Bookshop Responsive Bootstrap4 Template  
-	Description: Template description
-	Version: 1.0
-	Note: This is custom css. All custom styles (user styles) declare here.
+    Template Name: Boighor Bookshop Responsive Bootstrap4 Template  
+    Description: Template description
+    Version: 1.0
+    Note: This is custom css. All custom styles (user styles) declare here.
 
 **********************************************************************************/
+
+a#scrollUp {
+  bottom: 0px;
+  left: 40px;
+}
+a#telephone {
+  background: #004196;
+  color: #fff;
+  bottom: 45px;
+  left: 40px;
+  border-radius: 100px;
+  height: 45px;
+  width: 45px;
+  font-size: 25px;
+  text-align: center;
+  padding: 9px 0;
+  box-shadow: 0 0 15px 0px rgba(50, 50, 50, 0.2);
+  transition: 0.3s;
+}
+a#telephone:hover {
+    background: #fff;
+    color: #004196;
+}
+.section__title {
+  max-width: 100%;
+}
+.home-category .h2-border {
+  border-top: 3px solid #e59285;
+  padding-top: 10px;
+}
+.home-category .section__title h2 a:hover{
+  color: #333;
+}
+.home-category .section__title .btn-more {
+  float: right;
+}
+.home-search-news.wn__sidebar .widget.search_widget {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.home-search-news.wn__sidebar .widget.recent_widget {
+  margin-bottom: 20px;
+}
+.mobile-top-menu {
+  text-align: center;
+  padding: 20px 0px;
+}
+.mobile-top-menu h4 {
+  display:inline-table;
+  width:31%;
+  text-align:center;
+  border:2px solid #e59285;
+  margin:2px;
+  min-height:44px;
+  vertical-align:middle;
+  background:-webkit-linear-gradient(top, #fff, #e5e5e5);
+  border-radius:3px;
+}
+.mobile-top-menu h4 a {
+  vertical-align:middle;
+  display:table-cell;
+  padding:2px;
+  font-size:12px;
+  font-weight:bold;
+  color:#000;
+  line-height:1.2em;
+}
+.mobile-top-menu h4 a:hover {
+  color: #e59285
+}
+#wn__header .menu-right {
+  padding: 0px;
+}
+#wn__header .menu-right .callphone {
+  padding-right: 15px;
+}
+#wn__header .menu-right .callphone i {
+  color: red;
+}
+#wn__header .menu-right .shopcart {
+  padding-right: 15px;
+}
+
+/* Page chinh sach*/
+.policies .policy ul li a.active {
+  color: #e59285;
+}
+.policies .post-thumbnail img {
+  width: 100%;
+}
+
+/* support customer */
+footer .wedget__categories.poroduct--cat.support-customer ul li a.telephone {
+  color: #e59285;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+  .mobile-top-menu.d-none {
+    display: block !important;
+  }
+  #wn__header .menu-right .callphone b{
+    display: none;
+  }
+}
