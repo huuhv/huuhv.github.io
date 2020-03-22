@@ -98,9 +98,9 @@ a#telephone:hover {
 }
 
 /* support customer */
-footer .wedget__categories.poroduct--cat.support-customer ul li a.telephone {
-  color: #e59285;
-  font-weight: bold;
+a.telephone {
+  color: red !important;
+  font-weight: bold !important;
 }
 
 @media only screen and (max-width: 991px) {
